@@ -90,5 +90,5 @@ int main(void) {
 
   printf("%d", pop());
 
-  return 0;
+  
 }
