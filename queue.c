@@ -10,4 +10,9 @@ void main(){
 void enqueue(int num){
     if(rear==SIZE-1)
         printf("Overflow");
+    else{
+	if(front == -1)
+		front = 0;
+	q[rear++] = num;
+    }
 }
