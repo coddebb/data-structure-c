@@ -1,5 +1,5 @@
 // Priority Queue implementation in C
-
+// With tree operations
 #include <stdio.h>
 int size = 0;
 void swap(int *a, int *b) {
